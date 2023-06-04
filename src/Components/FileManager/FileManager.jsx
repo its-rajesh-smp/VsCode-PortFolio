@@ -6,7 +6,7 @@ import File from "../UI/FileManager/File/File";
 import STORE from "../../Store/Store";
 import TopLogo from "../UI/FileManager/TopLogo/TopLogo";
 
-function FileManager(props) {
+function FileManager(props) { 
   const marginLeft = 0;
   return (
     <div className=" FileManager-div ">

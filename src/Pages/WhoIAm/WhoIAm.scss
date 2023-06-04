@@ -14,14 +14,20 @@
   position: relative;
   z-index: 200;
   .WhoIAm-div__center__nameContainer {
-    font-family: poppins;
-    &:first-child {
-      font-size: 30px;
+    font-family: "JetBrains Mono", monospace;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 20px;
+    .first {
       &::first-letter {
+        padding-right: 20px;
         initial-letter: 2;
       }
     }
-    &:last-child {
+    .second {
+      padding-left: 20px;
+    }
+    .third {
     }
   }
 

@@ -2,7 +2,7 @@ import React from "react";
 import "./TopLogo.css";
 
 function TopLogo(props) {
-  return (
+  return ( 
     <div className=" TopLogo-div ">
       <i className="ri-arrow-down-s-line"></i>
       <p>VSCODE PORTFOLIO</p>
