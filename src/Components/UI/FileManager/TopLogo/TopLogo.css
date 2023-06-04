@@ -1,0 +1,16 @@
+.TopLogo-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 7px;
+  font-size: 13px;
+  font-family: roboto;
+  height: 40px;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  background-color: #27374d;
+}
+.TopLogo-div i {
+  font-size: 20px;
+}/*# sourceMappingURL=TopLogo.css.map */

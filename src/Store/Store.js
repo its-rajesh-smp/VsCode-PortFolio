@@ -3,36 +3,39 @@ const STORE = {
         src: {
             folders: {
                 home: {
-                    folders: {
-                        WhoAmI: {},
-                        MyJourney: {}
+                    files: {
+                        ["Who_i_am.js"]: {},
+                        ["My_Journey.jsx"]: {}
                     },
-                    files: { sdfdsf: {} }
                 },
                 skills: {
-                    folders: {
-                        WhoAmI: {},
-                        MyJourney: {}
+                    files: {
+                        ["Frontend.jsx"]: {},
+                        ["Backend.jsx"]: {}
                     },
-                    files: { sdfdsf: {} }
                 },
                 projects: {
-                    folders: {
-                        WhoAmI: {},
-                        MyJourney: {}
+                    files: {
+                        "ShopCart.jsx": {},
+                        "BodyBook.jsx": {},
+                        "Disny_Hotstar.jsx": {},
+                        "Potato.jsx": {},
+                        "TrackyFi.jsx": {},
+                        "TempMail.jsx": {},
                     },
-                    files: { sdfdsf: {} }
                 },
                 resume: {
-                    folders: {
-                        sdfdsf: {}
+                    files: {
+                        "red.scss": {},
+                        "blue.scss": {},
+                        "green.scss": {},
+                        "pink.scss": {},
                     },
-                    files: { sdfdsf: {} }
                 }
             },
-            files: { sdfdsf: {} }
+            files: { "_social.js": {}, "form.html": {} }
         },
     },
-    files: { sdfdsf: {} }
+    files: { "index.html": {} }
 };
 export default STORE
