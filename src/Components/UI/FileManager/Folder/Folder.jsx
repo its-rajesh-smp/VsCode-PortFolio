@@ -16,6 +16,7 @@ function Folder(props) {
     ? Object.keys(props.fileFolders.folders).map((folderName) => {
         return (
           <Folder
+            marginLeft={props.marginLeft}
             fileFolders={props.fileFolders.folders[folderName]}
             folderName={folderName}
             key={Math.random()}
@@ -34,11 +35,12 @@ function Folder(props) {
   return (
     <>
       <div onClick={onClickOpenFolderHandeler} className=" Folder-div ">
+        <i class={`ri-arrow-${openFolder ? "down" : "right"}-s-line`}></i>
         <i className="ri-folder-line"></i>
         <p>{props.folderName}</p>
       </div>
       {openFolder && (
-        <FileFolderContainer marginLeft={props.marginLeft + 20}>
+        <FileFolderContainer marginLeft={props.marginLeft + 16}>
           {Folders}
           {Files}
         </FileFolderContainer>

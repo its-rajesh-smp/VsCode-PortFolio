@@ -1,32 +1,37 @@
 const STORE = {
     folders: {
-        home: {
+        src: {
             folders: {
-                WhoAmI: {},
-                MyJourney: {}
+                home: {
+                    folders: {
+                        WhoAmI: {},
+                        MyJourney: {}
+                    },
+                    files: { sdfdsf: {} }
+                },
+                skills: {
+                    folders: {
+                        WhoAmI: {},
+                        MyJourney: {}
+                    },
+                    files: { sdfdsf: {} }
+                },
+                projects: {
+                    folders: {
+                        WhoAmI: {},
+                        MyJourney: {}
+                    },
+                    files: { sdfdsf: {} }
+                },
+                resume: {
+                    folders: {
+                        sdfdsf: {}
+                    },
+                    files: { sdfdsf: {} }
+                }
             },
             files: { sdfdsf: {} }
         },
-        skills: {
-            folders: {
-                WhoAmI: {},
-                MyJourney: {}
-            },
-            files: { sdfdsf: {} }
-        },
-        projects: {
-            folders: {
-                WhoAmI: {},
-                MyJourney: {}
-            },
-            files: { sdfdsf: {} }
-        },
-        resume: {
-            folders: {
-                sdfdsf: {}
-            },
-            files: { sdfdsf: {} }
-        }
     },
     files: { sdfdsf: {} }
 };

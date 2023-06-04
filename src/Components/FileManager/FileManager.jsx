@@ -9,7 +9,7 @@ function FileManager(props) {
   const marginLeft = 0;
   return (
     <div className=" FileManager-div ">
-      <FileFolderContainer marginLeft={marginLeft}>
+      <FileFolderContainer border={"none"} marginLeft={marginLeft}>
         {/* For Folders */}
         {Object.keys(STORE.folders).map((folderName) => {
           return (

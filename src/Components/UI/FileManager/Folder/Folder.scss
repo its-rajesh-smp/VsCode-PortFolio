@@ -4,13 +4,11 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 10px;
   padding: 20px 10px;
   box-sizing: border-box;
   font-family: roboto;
-  i {
-    font-size: 20px;
-  }
+  font-size: 14px;
   &:hover {
     background-color: gray;
   }
