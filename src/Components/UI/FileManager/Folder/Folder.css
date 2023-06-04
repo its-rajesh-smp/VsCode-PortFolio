@@ -1,14 +1,17 @@
 .Folder-div {
   height: 30px;
+  cursor: pointer;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px;
+  padding: 20px 10px;
   box-sizing: border-box;
-  background-color: yellow;
   font-family: roboto;
 }
 .Folder-div i {
   font-size: 20px;
+}
+.Folder-div:hover {
+  background-color: gray;
 }/*# sourceMappingURL=Folder.css.map */

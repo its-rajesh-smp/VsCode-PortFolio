@@ -33,12 +33,12 @@ function Folder(props) {
 
   return (
     <>
-      <div className=" Folder-div ">
+      <div onClick={onClickOpenFolderHandeler} className=" Folder-div ">
         <i className="ri-folder-line"></i>
-        <p onClick={onClickOpenFolderHandeler}>{props.folderName}</p>
+        <p>{props.folderName}</p>
       </div>
       {openFolder && (
-        <FileFolderContainer>
+        <FileFolderContainer marginLeft={props.marginLeft + 20}>
           {Folders}
           {Files}
         </FileFolderContainer>

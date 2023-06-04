@@ -6,13 +6,15 @@ import File from "../UI/FileManager/File/File";
 import STORE from "../../Store/Store";
 
 function FileManager(props) {
+  const marginLeft = 0;
   return (
     <div className=" FileManager-div ">
-      <FileFolderContainer>
+      <FileFolderContainer marginLeft={marginLeft}>
         {/* For Folders */}
         {Object.keys(STORE.folders).map((folderName) => {
           return (
             <Folder
+              marginLeft={marginLeft}
               fileFolders={STORE.folders[folderName]}
               folderName={folderName}
               key={Math.random()}
