@@ -1,0 +1,14 @@
+.Folder-div {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: yellow;
+  font-family: roboto;
+}
+.Folder-div i {
+  font-size: 20px;
+}/*# sourceMappingURL=Folder.css.map */

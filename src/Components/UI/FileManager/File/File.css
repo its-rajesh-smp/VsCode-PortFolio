@@ -1,0 +1,14 @@
+.File-div {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: yellow;
+  font-family: roboto;
+}
+.File-div i {
+  font-size: 20px;
+}/*# sourceMappingURL=File.css.map */
