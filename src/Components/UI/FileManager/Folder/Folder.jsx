@@ -35,7 +35,7 @@ function Folder(props) {
   return (
     <>
       <div onClick={onClickOpenFolderHandeler} className=" Folder-div ">
-        <i class={`ri-arrow-${openFolder ? "down" : "right"}-s-line`}></i>
+        <i className={`ri-arrow-${openFolder ? "down" : "right"}-s-line`}></i>
         <i className="ri-folder-line"></i>
         <p>{props.folderName}</p>
       </div>

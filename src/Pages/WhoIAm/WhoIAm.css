@@ -1,0 +1,55 @@
+.WhoIAm-div {
+  height: 100vh;
+  width: calc(100% - 300px);
+  box-sizing: border-box;
+  position: relative;
+}
+
+.WhoIAm-div__center {
+  padding: 50px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  z-index: 200;
+}
+.WhoIAm-div__center .WhoIAm-div__center__nameContainer {
+  font-family: poppins;
+}
+.WhoIAm-div__center .WhoIAm-div__center__nameContainer:first-child {
+  font-size: 30px;
+}
+.WhoIAm-div__center .WhoIAm-div__center__nameContainer:first-child::first-letter {
+  initial-letter: 2;
+}
+.WhoIAm-div__center img {
+  background-color: red;
+  justify-self: flex-end;
+  width: 30vw;
+  animation-name: animateMyImage;
+  animation-duration: 20s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  box-shadow: 2px 2px 15px black;
+}
+
+@keyframes animateMyImage {
+  0% {
+    border-radius: 10% 80% 70% 50%/50% 70% 60% 20%;
+  }
+  25% {
+    border-radius: 40% 44% 58% 60%/33% 90% 10% 50%;
+  }
+  50% {
+    border-radius: 51% 78% 33% 29%/25% 47% 98% 66%;
+  }
+  75% {
+    border-radius: 60% 40% 10% 20%/90% 55% 40% 80%;
+  }
+  100% {
+    border-radius: 45% 350% 70% 70%/50% 50% 90% 10%;
+  }
+}/*# sourceMappingURL=WhoIAm.css.map */

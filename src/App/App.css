@@ -1,1 +1,9 @@
-/*# sourceMappingURL=App.css.map */
+.App-div {
+  display: flex;
+  gap: 5px;
+}
+
+.pageContainer {
+  box-sizing: border-box;
+  padding: 10px;
+}/*# sourceMappingURL=App.css.map */
