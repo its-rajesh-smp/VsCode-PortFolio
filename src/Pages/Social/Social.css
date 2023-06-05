@@ -1,0 +1,47 @@
+.Social-div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.Social-div .codeContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.codeLine {
+  display: flex;
+  gap: 10px;
+}
+.codeLine .codeNumber {
+  margin-right: 10px;
+}
+.codeLine .code {
+  display: flex;
+  gap: 10px;
+}
+
+.indented {
+  margin-left: 60px;
+}
+
+.variable {
+  color: #5fa4e6;
+}
+
+.curlyBracket {
+  color: yellow;
+}
+
+.squarBracket {
+  color: rgb(45, 196, 255);
+}
+
+.arrValue {
+  color: #c9986d;
+}
+
+.ObjValue {
+  color: #c9986d;
+}/*# sourceMappingURL=Social.css.map */

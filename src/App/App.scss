@@ -5,7 +5,10 @@
 .pageContainer {
   box-sizing: border-box;
   font-family: "JetBrains Mono", monospace;
-  padding: 10px;
+  padding: 30px;
   background-color: #24292e;
-  width: 100%;
+  width: calc(100% - 300px);
+  position: absolute;
+  right: 0;
+  height: auto;
 }

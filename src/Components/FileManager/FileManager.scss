@@ -1,11 +1,10 @@
 .FileManager-div {
   width: 300px;
   background-color: #242426;
-  position: relative;
+  position: fixed;
   box-sizing: border-box;
   color: white;
   min-height: 100vh;
-  position: relative;
   z-index: 20000000;
   border-right: 2px solid #000;
 }

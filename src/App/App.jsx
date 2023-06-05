@@ -1,17 +1,13 @@
 import React from "react";
 import "./App.css";
-import FileManager from "../Components/FileManager/FileManager";
-import WhoIAm from "../Pages/WhoIAm/WhoIAm";
-import MyJourney from "../Pages/MyJourney/MyJourney";
-import MySkills from "../Pages/MySkills/MySkills";
+import MyLayout from "../Layout/MyLayout";
+import MyRoutes from "../Routes/MyRoutes";
 
 function App(props) {
   return (
     <div className=" App-div ">
-      <FileManager />
-      {/* <WhoIAm /> */}
-      {/* <MyJourney /> */}
-      <MySkills />
+      <MyLayout />
+      <MyRoutes />
     </div>
   );
 }
