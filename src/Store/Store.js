@@ -10,8 +10,7 @@ const STORE = {
                 },
                 skills: {
                     files: {
-                        ["Frontend.jsx"]: {},
-                        ["Backend.jsx"]: {}
+                        ["My_Skills.jsx"]: {},
                     },
                 },
                 projects: {

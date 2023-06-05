@@ -1,0 +1,8 @@
+.Skill-div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.Skill-div img {
+  width: 20px;
+}/*# sourceMappingURL=Skill.css.map */
