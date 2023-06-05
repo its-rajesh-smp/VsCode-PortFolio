@@ -1,0 +1,16 @@
+.MyJourney-div {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+
+  .MyJourney-div__container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    ul {
+      padding: 10px;
+      margin-left: 30px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.JourneyDiv-div {
+  padding-left: 30px;
+  .h1Container {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 0.05fr 1fr;
+  }
+  .restContainer {
+    padding: 10px;
+    margin-left: 20px;
+  }
+}

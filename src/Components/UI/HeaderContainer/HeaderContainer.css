@@ -1,0 +1,11 @@
+.HeaderContainer-div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.HeaderContainer-div img {
+  width: 100px;
+}
+.HeaderContainer-div h1 {
+  font-size: 50px;
+}/*# sourceMappingURL=HeaderContainer.css.map */
