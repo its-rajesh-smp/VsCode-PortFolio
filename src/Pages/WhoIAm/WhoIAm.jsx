@@ -11,7 +11,7 @@ function WhoIAm(props) {
           <h1 className="first">Hi</h1>
           <h1 className="second">Myself Rajesh</h1>
         </div>
-        <img src="src\assets\IMG20220726073737.jpg" alt="" />
+        <img id="myImg" src="src\assets\IMG20220726073737.jpg" alt="" />
       </div>
     </div>
   );
