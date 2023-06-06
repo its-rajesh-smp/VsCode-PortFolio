@@ -15,8 +15,12 @@
 }
 .WhoIAm-div__center .WhoIAm-div__center__nameContainer {
   letter-spacing: 2px;
-  color: white;
+  padding: 50px;
+  background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 20px;
+  animation: shineText 4s infinite linear;
 }
 .WhoIAm-div__center .WhoIAm-div__center__nameContainer .first::first-letter {
   padding-right: 20px;
@@ -52,5 +56,13 @@
   }
   100% {
     border-radius: 45% 350% 70% 70%/50% 50% 90% 10%;
+  }
+}
+@keyframes shineText {
+  0% {
+    background-position: -100px;
+  }
+  100% {
+    background-position: 450px;
   }
 }/*# sourceMappingURL=WhoIAm.css.map */
