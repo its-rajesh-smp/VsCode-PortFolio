@@ -1,15 +1,17 @@
-.MyJourney-div {
+.MyJourney-div__big_container {
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 70px;
+  gap: 40px;
+  position: relative;
+  z-index: 200;
 }
-.MyJourney-div .MyJourney-div__container {
+.MyJourney-div__big_container .MyJourney-div__container {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
 }
-.MyJourney-div .MyJourney-div__container ul {
+.MyJourney-div__big_container .MyJourney-div__container ul {
   padding: 10px;
   margin-left: 30px;
 }/*# sourceMappingURL=MyJourney.css.map */
