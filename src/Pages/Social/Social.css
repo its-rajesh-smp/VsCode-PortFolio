@@ -1,8 +1,11 @@
-.Social-div {
+.Social-div .Social-div__container {
   color: white;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: relative;
+  z-index: 200;
+  color: ye;
 }
 
 .codeContainer {

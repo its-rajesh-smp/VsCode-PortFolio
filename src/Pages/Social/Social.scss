@@ -1,15 +1,19 @@
 .Social-div {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  .Social-div__container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    z-index: 200;
+    color: ye;
+  }
 }
 .codeContainer {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-
 .codeLine {
   display: grid;
   gap: 20px;
