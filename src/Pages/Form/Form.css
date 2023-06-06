@@ -1,0 +1,21 @@
+.Form-div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: white;
+}
+.Form-div span {
+  outline: none;
+}
+.Form-div .btnSubmit {
+  width: fit-content;
+  padding: 10px 20px;
+  font-family: "JetBrains Mono", monospace;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  color: white;
+  background-color: #4e4949;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}/*# sourceMappingURL=Form.css.map */

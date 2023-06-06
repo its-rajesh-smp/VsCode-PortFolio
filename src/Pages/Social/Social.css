@@ -4,17 +4,21 @@
   flex-direction: column;
   gap: 30px;
 }
-.Social-div .codeContainer {
+
+.codeContainer {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
 
 .codeLine {
-  display: flex;
-  gap: 10px;
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  grid-template-columns: 0.03fr 1fr;
 }
 .codeLine .codeNumber {
+  text-align: right;
   margin-right: 10px;
 }
 .codeLine .code {
@@ -40,6 +44,10 @@
 
 .arrValue {
   color: #c9986d;
+}
+
+.doubleIndented {
+  margin-left: 110px;
 }
 
 .ObjValue {
