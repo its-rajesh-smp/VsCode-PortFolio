@@ -1,10 +1,16 @@
 .FileManager-div {
   width: 300px;
   background-color: #242426;
-  position: fixed;
+  position: static;
   box-sizing: border-box;
   color: white;
   min-height: 100vh;
   z-index: 20000000;
   border-right: 2px solid #000;
+  overflow-y: scroll;
+  max-height: 100vh;
+}
+
+.FileManager-div::-webkit-scrollbar {
+  display: none;
 }
