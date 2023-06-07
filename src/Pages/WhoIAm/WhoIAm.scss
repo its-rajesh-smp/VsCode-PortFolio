@@ -13,7 +13,7 @@
   z-index: 200;
   .WhoIAm-div__center__nameContainer {
     letter-spacing: 2px;
-    padding: 50px;
+    padding: 0px 50px;
     background: linear-gradient(to right, grey 0, white 10%, grey 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -27,8 +27,6 @@
     }
     .second {
       padding-left: 20px;
-    }
-    .third {
     }
   }
 
