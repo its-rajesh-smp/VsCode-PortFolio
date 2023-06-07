@@ -1,13 +1,15 @@
-.Form-div {
+.Form-div__container {
   display: flex;
   flex-direction: column;
   gap: 30px;
   color: white;
+  position: relative;
+  z-index: 200;
 }
-.Form-div span {
+.Form-div__container span {
   outline: none;
 }
-.Form-div .btnSubmit {
+.Form-div__container .btnSubmit {
   width: fit-content;
   padding: 10px 20px;
   font-family: "JetBrains Mono", monospace;

@@ -1,4 +1,4 @@
-export const HomeScreenBackgroundConfig = {
+export const FormScreenBackgroundConfig = {
     autoPlay: true,
     background: {
         color: {
@@ -34,7 +34,7 @@ export const HomeScreenBackgroundConfig = {
         events: {
             onClick: {
                 enable: true,
-                mode: "push"
+                mode: "repulse"
             },
             onDiv: {
                 selectors: [],
@@ -44,11 +44,11 @@ export const HomeScreenBackgroundConfig = {
             },
             onHover: {
                 enable: true,
-                mode: "grab",
+                mode: "bubble",
                 parallax: {
                     enable: true,
-                    force: 60,
-                    smooth: 10
+                    force: 50,
+                    smooth: 50
                 }
             },
             resize: {
@@ -70,10 +70,10 @@ export const HomeScreenBackgroundConfig = {
             },
             bubble: {
                 distance: 400,
-                duration: 2,
+                duration: 0.3,
                 mix: false,
-                opacity: 0.8,
-                size: 40,
+                opacity: 1,
+                size: 4,
                 divs: {
                     distance: 200,
                     duration: 0.4,
@@ -93,7 +93,7 @@ export const HomeScreenBackgroundConfig = {
                 links: {
                     blink: false,
                     consent: false,
-                    opacity: 1
+                    opacity: 0.5
                 }
             },
             push: {
@@ -106,7 +106,7 @@ export const HomeScreenBackgroundConfig = {
             },
             repulse: {
                 distance: 200,
-                duration: .1,
+                duration: 0.4,
                 factor: 100,
                 speed: 1,
                 maxSpeed: 50,
@@ -198,7 +198,7 @@ export const HomeScreenBackgroundConfig = {
             }
         },
         color: {
-            value: "#ffffff",
+            value: "#fff",
             animation: {
                 h: {
                     count: 0,
@@ -251,14 +251,14 @@ export const HomeScreenBackgroundConfig = {
             },
             decay: 0,
             distance: {},
-            direction: "none",
+            direction: "bottom",
             drift: 0,
             enable: true,
             gravity: {
                 acceleration: 9.81,
                 enable: false,
                 inverse: false,
-                maxSpeed: 50
+                maxSpeed: 100
             },
             path: {
                 clamp: true,
@@ -302,7 +302,7 @@ export const HomeScreenBackgroundConfig = {
                 height: 1080
             },
             limit: 0,
-            value: 100
+            value: 400
         },
         opacity: {
             random: {
@@ -315,8 +315,8 @@ export const HomeScreenBackgroundConfig = {
             },
             animation: {
                 count: 0,
-                enable: true,
-                speed: 3,
+                enable: false,
+                speed: 1,
                 decay: 0,
                 delay: 0,
                 sync: false,
@@ -326,7 +326,7 @@ export const HomeScreenBackgroundConfig = {
                 minimumValue: 0.1
             }
         },
-        reduceDuplicates: true,
+        reduceDuplicates: false,
         shadow: {
             blur: 0,
             color: {
@@ -350,16 +350,16 @@ export const HomeScreenBackgroundConfig = {
                 minimumValue: 1
             },
             value: {
-                min: 4,
-                max: 4
+                min: 1,
+                max: 1
             },
             animation: {
-                count: 5,
+                count: 0,
                 enable: true,
-                speed: 20,
+                speed: 40,
                 decay: 0,
                 delay: 0,
-                sync: true,
+                sync: false,
                 mode: "auto",
                 startValue: "random",
                 destroy: "none",
@@ -469,14 +469,14 @@ export const HomeScreenBackgroundConfig = {
         },
         twinkle: {
             lines: {
-                enable: true,
-                frequency: 0.1,
-                opacity: 10
+                enable: false,
+                frequency: 0.05,
+                opacity: 1
             },
             particles: {
-                enable: true,
+                enable: false,
                 frequency: 0.05,
-                opacity: 10
+                opacity: 1
             }
         },
         wobble: {
@@ -513,8 +513,8 @@ export const HomeScreenBackgroundConfig = {
                 value: "#ffffff"
             },
             consent: false,
-            distance: 150,
-            enable: true,
+            distance: 500,
+            enable: false,
             frequency: 1,
             opacity: 0.4,
             shadow: {
@@ -528,7 +528,7 @@ export const HomeScreenBackgroundConfig = {
                 enable: false,
                 frequency: 1
             },
-            width: 1,
+            width: 2,
             warp: false
         },
         repulse: {
@@ -550,5 +550,12 @@ export const HomeScreenBackgroundConfig = {
     smooth: false,
     style: {},
     themes: [],
-    zLayers: 100
+    zLayers: 100,
+    motion: {
+        disable: false,
+        reduce: {
+            factor: 4,
+            value: true
+        }
+    }
 }

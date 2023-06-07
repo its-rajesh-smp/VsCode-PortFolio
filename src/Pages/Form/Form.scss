@@ -1,8 +1,12 @@
 .Form-div {
+}
+.Form-div__container {
   display: flex;
   flex-direction: column;
   gap: 30px;
   color: white;
+  position: relative;
+  z-index: 200;
   span {
     outline: none;
   }
