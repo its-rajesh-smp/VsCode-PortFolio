@@ -1,9 +1,10 @@
+@import "../../Styles/color";
 .Social-div {
   .Social-div__container {
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: torem(30px);
     position: relative;
     z-index: 200;
     color: ye;
@@ -12,24 +13,24 @@
 .codeContainer {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: torem(5px);
 }
 .codeLine {
   display: grid;
-  gap: 20px;
+  gap: torem(20px);
   align-items: center;
   grid-template-columns: 0.03fr 1fr;
   .codeNumber {
     text-align: right;
-    margin-right: 10px;
+    margin-right: torem(10px);
   }
   .code {
     display: flex;
-    gap: 10px;
+    gap: torem(10px);
   }
 }
 .indented {
-  margin-left: 60px;
+  margin-left: torem(60px);
 }
 .variable {
   color: #5fa4e6;
@@ -44,7 +45,7 @@
   color: #c9986d;
 }
 .doubleIndented {
-  margin-left: 110px;
+  margin-left: torem(110px);
 }
 
 .ObjValue {

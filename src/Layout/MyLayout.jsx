@@ -4,8 +4,8 @@ import SideBar from "../Components/SideBar/SideBar";
 const MyLayout = () => {
   return (
     <>
-      {/* <SideBar /> */}
-      {/* <FileManager /> */}
+      <SideBar />
+      <FileManager />
     </>
   );
 };

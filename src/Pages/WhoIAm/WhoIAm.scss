@@ -1,9 +1,10 @@
+@import "../../Styles/color";
 .WhoIAm-div {
   height: 100vh;
   box-sizing: border-box;
 }
 .WhoIAm-div__center {
-  padding: 50px;
+  padding: torem(50px);
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -12,21 +13,21 @@
   position: relative;
   z-index: 200;
   .WhoIAm-div__center__nameContainer {
-    letter-spacing: 2px;
-    padding: 0px 50px;
+    letter-spacing: torem(2px);
+    padding: 0px torem(50px);
     background: linear-gradient(to right, grey 0, white 10%, grey 20%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 20px;
+    font-size: torem(20px);
     animation: shineText 4s infinite linear;
     .first {
       &::first-letter {
-        padding-right: 20px;
+        padding-right: torem(20px);
         initial-letter: 2;
       }
     }
     .second {
-      padding-left: 20px;
+      padding-left: torem(20px);
     }
   }
 
@@ -39,7 +40,7 @@
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    box-shadow: 2px 2px 15px black;
+    box-shadow: torem(2px) torem(2px) torem(15px) black;
   }
 }
 
@@ -63,9 +64,9 @@
 
 @keyframes shineText {
   0% {
-    background-position: -100px;
+    background-position: torem(-100px);
   }
   100% {
-    background-position: 450px;
+    background-position: torem(450px);
   }
 }

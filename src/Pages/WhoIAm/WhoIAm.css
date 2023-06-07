@@ -4,7 +4,7 @@
 }
 
 .WhoIAm-div__center {
-  padding: 50px;
+  padding: 3.125rem;
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -14,20 +14,20 @@
   z-index: 200;
 }
 .WhoIAm-div__center .WhoIAm-div__center__nameContainer {
-  letter-spacing: 2px;
-  padding: 0px 50px;
+  letter-spacing: 0.125rem;
+  padding: 0px 3.125rem;
   background: linear-gradient(to right, grey 0, white 10%, grey 20%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 20px;
+  font-size: 1.25rem;
   animation: shineText 4s infinite linear;
 }
 .WhoIAm-div__center .WhoIAm-div__center__nameContainer .first::first-letter {
-  padding-right: 20px;
+  padding-right: 1.25rem;
   initial-letter: 2;
 }
 .WhoIAm-div__center .WhoIAm-div__center__nameContainer .second {
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 .WhoIAm-div__center img {
   background-color: red;
@@ -38,7 +38,7 @@
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-direction: alternate;
-  box-shadow: 2px 2px 15px black;
+  box-shadow: 0.125rem 0.125rem 0.9375rem black;
 }
 
 @keyframes animateMyImage {
@@ -60,9 +60,9 @@
 }
 @keyframes shineText {
   0% {
-    background-position: -100px;
+    background-position: -6.25rem;
   }
   100% {
-    background-position: 450px;
+    background-position: 28.125rem;
   }
 }/*# sourceMappingURL=WhoIAm.css.map */

@@ -1,7 +1,8 @@
+@import "../../../../Styles/color";
 .FileFolderContainer-div {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  border-left: 1px solid rgb(92, 92, 92);
-  padding-left: 0px;
+  border-left: torem(1px) solid rgb(92, 92, 92);
+  padding-left: torem(0px);
 }

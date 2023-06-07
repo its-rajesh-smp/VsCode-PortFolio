@@ -2,16 +2,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 7px;
-  font-size: 13px;
+  padding: 0px 0.4375rem;
+  font-size: 0.8125rem;
   font-family: roboto;
-  height: 40px;
+  height: 2.5rem;
   font-weight: 600;
   position: sticky;
   top: 0;
   background-color: #202124;
-  border-bottom: 2px solid #000;
+  border-bottom: 0.125rem solid #000;
 }
 .TopLogo-div i {
-  font-size: 20px;
+  font-size: 1.25rem;
 }/*# sourceMappingURL=TopLogo.css.map */

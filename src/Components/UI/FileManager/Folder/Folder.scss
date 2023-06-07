@@ -1,14 +1,15 @@
+@import "../../../../Styles/color";
 .Folder-div {
-  height: 30px;
+  height: torem(30px);
   cursor: pointer;
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 20px 10px;
+  gap: torem(10px);
+  padding: torem(20px) torem(10px);
   box-sizing: border-box;
   font-family: roboto;
-  font-size: 14px;
+  font-size: torem(14px);
   &:hover {
     background-color: gray;
   }

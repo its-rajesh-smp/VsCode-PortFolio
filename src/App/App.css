@@ -5,8 +5,27 @@
 .pageContainer {
   box-sizing: border-box;
   font-family: "JetBrains Mono", monospace;
-  padding: 30px;
+  padding: 1.875rem;
   background-color: #24292e;
-  width: calc(100% - 300px);
+  width: calc(100% - 18.75rem);
   height: auto;
+}
+
+/* Smartphones  */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* Tablet */
+@media only screen and (min-device-width: 480px) and (max-device-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+/* Tablet 2 */
+@media only screen and (min-device-width: 480px) and (max-device-width: 900px) {
+  html {
+    font-size: 62.5%;
+  }
 }/*# sourceMappingURL=App.css.map */

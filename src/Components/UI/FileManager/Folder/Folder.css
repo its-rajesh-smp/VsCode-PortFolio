@@ -1,14 +1,14 @@
 .Folder-div {
-  height: 30px;
+  height: 1.875rem;
   cursor: pointer;
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 10px;
-  padding: 20px 10px;
+  gap: 0.625rem;
+  padding: 1.25rem 0.625rem;
   box-sizing: border-box;
   font-family: roboto;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .Folder-div:hover {
   background-color: gray;

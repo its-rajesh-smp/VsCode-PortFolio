@@ -1,17 +1,18 @@
+@import "../../../../Styles/color";
 .TopLogo-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0px 7px;
-  font-size: 13px;
+  padding: 0px torem(7px);
+  font-size: torem(13px);
   font-family: roboto;
-  height: 40px;
+  height: torem(40px);
   font-weight: 600;
   position: sticky;
   top: 0;
   background-color: #202124;
-  border-bottom: 2px solid #000;
+  border-bottom: torem(2px) solid #000;
   i {
-    font-size: 20px;
+    font-size: torem(20px);
   }
 }

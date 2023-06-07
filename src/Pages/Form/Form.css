@@ -1,7 +1,7 @@
 .Form-div__container {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 1.875rem;
   color: white;
   position: relative;
   z-index: 200;
@@ -11,9 +11,9 @@
 }
 .Form-div__container .btnSubmit {
   width: fit-content;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   font-family: "JetBrains Mono", monospace;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   border: none;
   font-weight: 700;
   color: white;

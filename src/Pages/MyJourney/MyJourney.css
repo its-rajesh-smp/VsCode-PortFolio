@@ -2,16 +2,16 @@
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
   position: relative;
   z-index: 200;
 }
 .MyJourney-div__big_container .MyJourney-div__container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 2.5rem;
 }
 .MyJourney-div__big_container .MyJourney-div__container ul {
-  padding: 10px;
-  margin-left: 30px;
+  padding: 0.625rem;
+  margin-left: 1.875rem;
 }/*# sourceMappingURL=MyJourney.css.map */

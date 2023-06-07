@@ -1,11 +1,11 @@
+@import "../../Styles/color";
 .MySkills-div {
 }
 .MySkills-div__container {
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: torem(50px);
   position: relative;
   z-index: 200;
-  color: ye;
 }
