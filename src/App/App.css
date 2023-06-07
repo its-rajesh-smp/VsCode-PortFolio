@@ -5,9 +5,9 @@
 .pageContainer {
   box-sizing: border-box;
   font-family: "JetBrains Mono", monospace;
-  padding: 1.875rem;
+  padding: 0.625rem;
   background-color: #24292e;
-  width: calc(100% - 18.75rem);
+  width: calc(100vw - 18.75rem);
   height: auto;
 }
 

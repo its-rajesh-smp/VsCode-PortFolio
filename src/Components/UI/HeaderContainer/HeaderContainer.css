@@ -1,11 +1,11 @@
 .HeaderContainer-div {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 1.25rem;
 }
 .HeaderContainer-div img {
-  width: 100px;
+  width: 6.25rem;
 }
 .HeaderContainer-div h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
 }/*# sourceMappingURL=HeaderContainer.css.map */

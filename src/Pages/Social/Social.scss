@@ -4,50 +4,9 @@
     color: white;
     display: flex;
     flex-direction: column;
-    gap: torem(30px);
+    gap: torem(70px);
     position: relative;
     z-index: 200;
     color: ye;
   }
-}
-.codeContainer {
-  display: flex;
-  flex-direction: column;
-  gap: torem(5px);
-}
-.codeLine {
-  display: grid;
-  gap: torem(20px);
-  align-items: center;
-  grid-template-columns: 0.03fr 1fr;
-  .codeNumber {
-    text-align: right;
-    margin-right: torem(10px);
-  }
-  .code {
-    display: flex;
-    gap: torem(10px);
-  }
-}
-.indented {
-  margin-left: torem(60px);
-}
-.variable {
-  color: #5fa4e6;
-}
-.curlyBracket {
-  color: yellow;
-}
-.squarBracket {
-  color: rgb(45, 196, 255);
-}
-.arrValue {
-  color: #c9986d;
-}
-.doubleIndented {
-  margin-left: torem(110px);
-}
-
-.ObjValue {
-  color: #c9986d;
 }

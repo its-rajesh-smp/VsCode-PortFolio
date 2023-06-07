@@ -1,11 +1,12 @@
+@import "../../../Styles/color";
 .HeaderContainer-div {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: torem(20px);
   img {
-    width: 100px;
+    width: torem(100px);
   }
   h1 {
-    font-size: 50px;
+    font-size: torem(50px);
   }
 }

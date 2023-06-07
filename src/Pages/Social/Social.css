@@ -2,7 +2,7 @@
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 1.875rem;
+  gap: 4.375rem;
   position: relative;
   z-index: 200;
   color: ye;
@@ -11,12 +11,18 @@
 .codeContainer {
   display: flex;
   flex-direction: column;
-  gap: 0.3125rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  width: calc(100vw - 100px);
+}
+.codeContainer p,
+.codeContainer span {
+  font-size: 0.75rem;
 }
 
 .codeLine {
   display: grid;
-  gap: 1.25rem;
+  gap: 1.875rem;
   align-items: center;
   grid-template-columns: 0.03fr 1fr;
 }
@@ -25,12 +31,13 @@
   margin-right: 0.625rem;
 }
 .codeLine .code {
+  flex-wrap: wrap;
   display: flex;
-  gap: 0.625rem;
+  gap: 0.3125rem;
 }
 
 .indented {
-  margin-left: 3.75rem;
+  margin-left: 0rem;
 }
 
 .variable {
@@ -50,7 +57,7 @@
 }
 
 .doubleIndented {
-  margin-left: 6.875rem;
+  margin-left: 5.625rem;
 }
 
 .ObjValue {
